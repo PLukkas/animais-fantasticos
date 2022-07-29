@@ -3,6 +3,12 @@
     padding: 0px;
 }
 
+body{
+    display: grid;
+    grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+    color: rgb(34, 34, 34);
+}
+
 li {
     list-style: none;
     color: inherit;
@@ -10,4 +16,13 @@ li {
 
 a{
     text-decoration: none;
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header, .footer{
+    grid-column: 3/-1;
 }

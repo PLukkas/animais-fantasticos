@@ -1,2 +1,7 @@
 @import './gerais.css';
 @import '../nav/nav.css';
+
+/* animais */
+@import '../inicial/main.css';
+@import '../inicial/faq.css';
+@import '../inicial/contato.css';
