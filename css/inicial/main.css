@@ -1,9 +1,10 @@
-.main-animais{
-    grid-column: 2/4;
-
+.grid-conteudo{
     display: grid;
     grid-template-columns: 120px 300px 1fr;
-    gap: 20px;
+}
+
+.main-animais{
+    grid-column: 2/4;
 }
 
 .container-titulo{
@@ -16,7 +17,7 @@
     font-size: 6rem;
     word-wrap: break-word;
     line-height: 1;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
     text-transform: uppercase;
 }
 

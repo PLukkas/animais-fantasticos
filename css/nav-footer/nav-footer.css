@@ -1,4 +1,4 @@
-.nav{
+.nav-footer{
     background-color: #ffbb55;
     margin: 2rem 0;
 }
@@ -17,4 +17,11 @@
     font-family: monospace;
     font-weight: bold;
     display: block;
+}
+
+.footer{
+    grid-column: 3/-1;
+    padding: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
 }
