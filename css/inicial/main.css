@@ -47,6 +47,18 @@
     text-transform: uppercase;
     margin-bottom: 1rem;
     color: rgb(238, 85, 68);
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.conteudo-principal-descricao h2::before{
+    content: '';
+    width: 40px;
+    height: 10px;
+    background-color: #FB5;
+    display: inline-block;
 }
 
 .conteudo-principal-descricao p {
